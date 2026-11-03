@@ -18,7 +18,7 @@ Sticky Navigation: Transparent navigation bar that applies a glass-morphism blur
 
 Resume Integration: Direct download link to my latest professional CV.
 
-🛠️ Technologies Used
+Technologies Used
 
 This project was intentionally built without heavy frontend frameworks to demonstrate a strong command of core web fundamentals.
 
