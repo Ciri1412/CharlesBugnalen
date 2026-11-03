@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Charles Bugnalen</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">Charles Bugnalen</a>
+
+      <ul class="nav-links">
+        <li><a href="about.html" style="color: var(--text-primary);">ABOUT</a></li>
+        <li><a href="experience.html">EXPERIENCE</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <svg id="theme-toggle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" style="cursor: pointer;">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="about-page">
+    <!-- About Header Section -->
+    <section class="about-header fade-in">
+      <div class="about-header-text">
+        <h1>About</h1>
+        <p>Get to know more about my background and skills</p>
+      </div>
+    </section>
+
+    <!-- Two-Column Layout -->
+    <section class="about-content fade-in">
+
+      <!-- 1x1 Profile Picture Box -->
+      <div class="about-profile-img">
+        <img src="src/pictures/Charles_Profile.png" alt="Charles Bugnalen">
+      </div>
+
+      <!-- Left Column: About Me, Concepts & Certifications -->
+      <div class="about-left">
+        <h2 class="about-section-title">About me</h2>
+        <p class="about-text">
+          Hello, My name is John Charles Dennis Bugnalen from Quezon City, Philippines.
+          I am an aspiring software developer with a strong foundation in programming fundamentals, including Python,
+          JavaScript, C++, and Web Technologies.
+        </p>
+        <p class="about-text">
+          I combine recent academic project experience in Computer Science with over six years of full-time professional
+          background in Technical Sales at Jhing Industrial Supply.
+        </p>
+        <p class="about-text">
+          I utilize my proven communication and client relations skills to bridge the gap between
+          technical development and real-world business needs, ensuring the solutions I build are both efficient and
+          impactful.
+        </p>
+
+        <h2 class="about-section-title mt-top">Concepts</h2>
+        <div class="about-card concepts-card">
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Databases</li>
+            <li>Discrete Maths</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>Machine Learning</li>
+            <li>Web Developing</li>
+            <li>Network Security</li>
+          </ul>
+        </div>
+
+        <!-- Awards & Certificates Section -->
+        <h2 class="about-section-title mt-top">Awards & Certificates</h2>
+        <div class="cert-boxes">
+          <div class="cert-box">Top Sales Awards – Jhing Industrial Supply</div>
+          <div class="cert-box">Emerging Technologies Workshop: Model Driven Programmability</div>
+          <div class="cert-box">CCNAv7: Enterprise Networking, Security, and Automation</div>
+          <div class="cert-box">Cybersecurity Essentials</div>
+          <div class="cert-box">Python Essentials</div>
+          <div class="cert-box">C++ Essentials</div>
+        </div>
+      </div>
+
+      <!-- Right Column: Skills & Education -->
+      <div class="about-right">
+
+        <h2 class="about-section-title">Skills</h2>
+
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>C++</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Tailwind</span>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Backend & Databases</h3>
+          <div class="skill-tags">
+            <span>MongoDB</span>
+            <span>Supabase</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Technologies Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span>Cisco Packet Tracer</span>
+            <span>GitHub</span>
+          </div>
+        </div>
+
+        <h2 class="about-section-title mt-top">Education</h2>
+        <div class="about-card education-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p class="edu-school">Asian Institute of Computer Studies</p>
+          <div class="edu-meta">
+            <span>June 2018 - April 2026</span>
+            <span>Quezon City, Philippines</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download Resume Button -->
+      <div class="resume-download-section">
+        <a href="./src/resume/Bugnalen_Charles_Resume.pdf" download="Bugnalen_Charles_Resume.pdf" class="rounded-btn">
+          Download My Resume
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">&copy; 2026 Charles Bugnalen - All Rights Reserved</p>
+      <div class="footer-icons">
+        <a href="https://github.com/Ciri1412" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/charlesbugnalen/" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="mailto:JohnCharlesDennisBugnalen@gmail.com">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <a href="https://m.me/ChaarlesDennis" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M12 2C6.48 2 2 6.13 2 11.24c0 2.87 1.45 5.43 3.73 7.15V22l3.4-1.87c.9.25 1.87.39 2.87.39 5.52 0 10-4.13 10-9.24S17.52 2 12 2zm1.09 12.35l-2.73-2.9-5.32 2.9 5.86-6.22 2.84 2.9 5.2-2.9-5.85 6.22z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
